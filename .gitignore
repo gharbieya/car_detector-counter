@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Model weights / large media (keep locally, don't commit)
+yolo weight/*.pt
+
+# Sample media (large)
+yolo running/Videos/
+yolo running/Images/
+
+# Jupyter
+.ipynb_checkpoints/
